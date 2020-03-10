@@ -1,0 +1,94 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "login": {
+    "code":100,
+    "extend":{
+        "functions":[
+            {
+                "name":"商户列表",
+                "value":"customer"
+            },
+            {
+                "name":"用户列表",
+                "value":"user"
+            },
+            {
+                "name":"角色管理",
+                "value":"role"
+            },
+            {
+                "name":"账户管理",
+                "value":"account"
+            }
+        ],
+        "roles":[
+            "超级管理员"
+        ],
+        "userInfo":{
+
+        }
+    },
+    "msg":"处理成功"
+  },
+  "payOrderList": {
+    "code":100,
+    "msg":"操作成功",
+    "data":{
+        "endRow":3,
+        "firstPage":1,
+        "hasNextPage":false,
+        "hasPreviousPage":false,
+        "isFirstPage":true,
+        "isLastPage":true,
+        "lastPage":1,
+        "navigateFirstPage":1,
+        "navigateLastPage":1,
+        "navigatePages":8,
+        "nextPage":0,
+        "pageNum":1,
+        "pageSize":4,
+        "pages":1,
+        "prePage":0,
+        "size":4,
+        "startRow":0,
+        "total":4,
+        "list":[
+            {
+                "orderId":"001234039894920",
+                "orderDetail":[
+                    "《名侦探柯南剧场版：贝克街的亡灵》",
+                    "《名侦探柯南剧场版：贝克街的亡灵》"
+                ],
+                "number":2,
+                "type":"故事片",
+                "lang":"日语",
+                "last4":"0203",
+                "cinema":"大唐影院",
+                "date":1541649144091,
+                "price":1.5,
+                "status":"已支付"
+            },
+            {
+                "orderId":"001234039894920",
+                "orderDetail":[
+                    "《名侦探柯南剧场版：贝克街的亡灵》"
+                ],
+                "number":2,
+                "type":"故事片",
+                "lang":"日语",
+                "last4":"0203",
+                "cinema":"大唐影院",
+                "date":1541659144091,
+                "price":1.5,
+                "status":"已支付"
+            }
+        ]
+    }
+  }
+}

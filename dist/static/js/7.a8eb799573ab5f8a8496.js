@@ -1,0 +1,2 @@
+webpackJsonp([7],{RpPb:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("router-view")],1)},staticRenderFns:[]};var u=n("C7Lr")({name:"taskResource"},r,!1,function(e){n("ZdqL")},null,null);t.default=u.exports},ZdqL:function(e,t){}});
+//# sourceMappingURL=7.a8eb799573ab5f8a8496.js.map
